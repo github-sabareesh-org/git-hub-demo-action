@@ -8,7 +8,7 @@ jobs:
               run: sleep 20
             - name: Runs on failure
               if: failure()
-              run: echo 'Runs only on failure'
+              run: echo 'Runs only on failures'
             - name: Runs on Success
             # this is default behaviour
               if: success()
